@@ -16,7 +16,6 @@ class ClassIntervaleExp extends Component {
 
   componentWillUnmount() {
     clearInterval(this.intervalRef);
-    this.setState({ count: 0 });
   }
 
   clearInterVal = () => {
