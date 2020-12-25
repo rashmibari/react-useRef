@@ -9,7 +9,6 @@ const FunctionInterVal = () => {
       setCount(count + 1);
     }, 6000);
     return () => {
-      setCount(0);
       clearInterval(interValRef);
     };
   }, [count]);
